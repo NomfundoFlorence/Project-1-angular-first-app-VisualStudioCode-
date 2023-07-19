@@ -38,6 +38,8 @@ export class HomeComponent {
 
   filteredLocationList: HousingLocation[] = [];
 
+/*The code below serves the search box to filter the houses according to the words in the serach textbox*/
+
   filterResults(text: string) {
     if (!text) {
       this.filteredLocationList = this.housingLocationList;
